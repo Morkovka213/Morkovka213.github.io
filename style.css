@@ -1,0 +1,72 @@
+
+
+body {
+	background-image: url(111.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+header a {	
+	z-index: 999999;
+	padding: 13px;
+}
+
+img {
+	padding: 0px 0px 0px 0px;	
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+.container {
+	background-color: #ff5300;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.box {	
+	width: 100px;
+	margin: 10px;
+	background-color: #c4c4c4;
+	border: 1px solid black;
+	flex-grow: 1;
+	border: 10px inset #DD9445;
+	border-radius: 10px;
+}
+#d3 {	
+	flex-grow: 2
+}
+.row {	
+	display: flex;
+	width: 100%;
+}
+.col-3 {
+	flex-grow: 3;
+}
+.col-1 {	
+	flex-grow: 1;
+}
+.header a {	
+	padding: 13px;
+}
+.carousele-element img{
+	margin: 0 auto;
+}
+#carousele {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.slick-dots li button:before{
+	font-size: 10px;
+	color: white;
+
+}

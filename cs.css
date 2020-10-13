@@ -1,0 +1,72 @@
+body {
+	background-image: url(картинки/111.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+header a {	
+	z-index: 999999;
+	padding: 13px;
+}
+
+img {
+	padding: 0px 0px 0px 0px;	
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.container {
+	background-color: #DD9445;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.box {	
+	width: 100px;
+	margin: 10px;
+	background-color: #949494;
+	border: 1px solid black;
+	flex-grow: 1;
+	border: 10px inset #6AA8CE;
+	border-radius: 10px;
+
+}
+#d3 {	
+	flex-grow: 2
+}
+.row {	
+	display: flex;
+	width: 100%;
+}
+.col-3 {
+	flex-grow: 3;
+}
+.col-1 {	
+	flex-grow: 1;
+}
+.header a {	
+	padding: 13px;
+}
+h2{	
+	padding:0px 0px 0px 570px;
+	color: white;
+}
+h3{	
+	padding:0px 0px 0px 68px;
+	color: white;
+}
+.container1 {	
+	margin-top: 10px;
+}
+footer h3 {
+	display: inline-block;
+	padding: 0;
+}

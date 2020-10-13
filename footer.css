@@ -1,0 +1,13 @@
+footer {
+    background-color: #DD9445;
+}
+footer a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url(inst.png);
+    background-size: cover;
+}
+footer a:hover{
+    background-image: url(inst1.png);
+}

@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+body {
+	background-image: url(../img/dog.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container {
+	background-color: #ff5300;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.box {
+	width: 100px;
+	margin: 10px;
+	background-color: #ff0000;
+	border: 1px solid black;
+	flex-grow: 1;
+}
+.row {
+	display: flex;
+	width: 100%;
+}
+.col-3 {
+	flex-grow: 3;
+}
+.col-1 {
+	flex-grow: 1l
+}
+
+///////////////////////////////////////////////////////
+.carousele{
+	margin: 10px;
+}
+.carousele div img{
+	width: 1000px;
+}
+
+
+//////////////////////////////////////////
